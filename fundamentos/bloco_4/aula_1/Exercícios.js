@@ -58,11 +58,21 @@ if (valor > 0) {
 
 let a = 100;
 let b = 40;
-let c = 40;
+let c = -4;
 let sum = a+b+c
 
 if (sum==180 && a>0 && b>0 && c>0) {
     console.log(true)
 } else {
-    false
+    console.log(false)
+}
+
+//6-Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+
+let piece = 'King';
+
+if (piece == 'King') {
+    console.log('Qualquer direção')
+}else {
+    console.log('Erro')
 }
