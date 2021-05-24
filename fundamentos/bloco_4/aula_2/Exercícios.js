@@ -72,7 +72,7 @@ for (let index = 0; index < numbers.length; index += 1) {
 }
     console.log(oddNumbers)
 
-7-Utilizando for , descubra qual o menor valor contido no array e imprima-o;
+//7-Utilizando for , descubra qual o menor valor contido no array e imprima-o;
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let menorNumero = numbers[0];
 
@@ -83,8 +83,30 @@ for (let index = 0; index < numbers.length; index += 1) {
         menorNumero = numbers[index]
     }
 }
-    console.log(menorNumero)
+    console.log(menorNumero);
 
+//8-Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
+let array = [];
 
-//Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
-//Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 .
+for (let index = 1; index < 26; index += 1) {
+    array.push(index);
+    
+}
+
+console.log(array);
+
+//9-Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2.
+
+let array = [];
+let division = [];
+
+for (let index = 1; index < 26; index += 1) {
+    array.push(index);
+    
+}
+
+for (let index = 0; index < array.length; index += 1) {
+    division.push(index / 2);
+}
+
+console.log(division);
