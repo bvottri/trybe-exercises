@@ -1,0 +1,78 @@
+body {
+    background-image: url(https://www.teahub.io/photos/full/29-290001_blue-white-paint-abstract-hd-wallpaper-abstract-hd.jpg);
+    background-size: auto;
+    color: rgb(10, 13, 59)
+    font-family: Koho;
+}
+
+#lagosta1 {
+   position: absolute;
+   margin-left: 1100px;
+}
+
+nav p {
+display: inline;
+font-size: 50px;
+padding: 225px;
+font-family: Koho;
+color: white;
+font-weight: 600;
+}
+
+.blue {
+    color: rgb(22, 88, 173);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Bebas Neue;
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-size: 70px;
+    font-weight: 600;
+    -webkit-text-stroke-color: rgb(22, 88, 173);
+    -webkit-text-stroke-width: 3px;
+    letter-spacing: 4px;
+}
+
+article h2 {
+    text-align: left;
+    color: rgb(22, 88, 173);
+    font-family: Bebas Neue;
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 600;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px;
+    letter-spacing: 4px;
+    padding-left: 10px;
+}
+
+article section h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: Bebas Neue;
+    -webkit-text-stroke-color: rgb(22, 88, 173);
+    -webkit-text-stroke-width: 1px;
+    letter-spacing:1px;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+article section p {
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    -webkit-text-stroke-color: rgb(22, 88, 173);
+    -webkit-text-stroke-width: 1px;
+    font-weight: bold;
+    text-align;
+    
+}
+
+
